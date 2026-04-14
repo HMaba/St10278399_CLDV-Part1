@@ -1,0 +1,68 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style>
+    .bms-nav {
+        background: #444441;
+        padding: 14px 24px;
+    }
+
+        .bms-nav span {
+            color: #F1EFE8;
+            font-size: 17px;
+            font-weight: 500;
+        }
+
+    .bms-hero {
+        background: #B4B2A9;
+        text-align: center;
+        padding: 80px 24px 60px;
+    }
+
+        .bms-hero h1 {
+            font-size: 2.4rem;
+            font-weight: 500;
+            color: #2C2C2A;
+            margin: 0 0 12px;
+        }
+
+        .bms-hero p {
+            font-size: 1.1rem;
+            color: #444441;
+            margin: 0 0 28px;
+        }
+
+    .bms-btns {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .bms-btn {
+        background: #444441;
+        color: #F1EFE8;
+        padding: 12px 28px;
+        border-radius: 6px;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+        .bms-btn:hover {
+            background: #2C2C2A;
+        }
+</style>
+
+<div class="bms-nav">
+    <span>Event Management</span>
+</div>
+
+<div class="bms-hero">
+    <h1>Booking Management System</h1>
+    <div class="bms-btns">
+        <a href="/Venue" class="bms-btn">Venues</a>
+        <a href="/Event" class="bms-btn">Events</a>
+        <a href="/Booking" class="bms-btn">Bookings</a>
+    </div>
+</div>
